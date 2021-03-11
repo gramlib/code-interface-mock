@@ -1,5 +1,5 @@
 {
-  "name": "@gramlib/code-interface-mock",
+  "name": "code-interface-mock",
   "version": "0.0.1",
   "scripts": {
     "lint": "eslint ./src",
