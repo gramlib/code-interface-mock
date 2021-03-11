@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test gather types should gather 1`] = `
+Object {
+  "Admin": Object {
+    "adminRecord": Object {
+      "studentsPassedEachYear": Array [
+        160291,
+      ],
+    },
+    "emailAddress": "切其东海。",
+    "firstName": "则次过保于率米张。",
+    "lastName": "后太过观南难按并机内。",
+    "username": "志断被后保观认。",
+  },
+  "AdminRecord": Object {
+    "studentsPassedEachYear": Array [
+      130969,
+      119935,
+    ],
+  },
+  "ICommonData": Object {
+    "alert": [Function],
+    "pushWindow": [Function],
+    "query": Object {},
+  },
+  "SchoolRecord": Object {
+    "endDate": "山装示电文何流。",
+    "grades": Array [
+      46384,
+      65356,
+    ],
+    "isActive": true,
+    "startDate": "解百图历治。",
+  },
+  "Student": Object {
+    "emailAddress": "复统具北被照京。",
+    "firstName": "论色从将应增济结。",
+    "lastName": "热验已线何。",
+    "schoolRecord": Object {
+      "endDate": "华题住干只满铁。",
+      "grades": Array [
+        2516,
+        4675,
+        121856,
+      ],
+      "isActive": false,
+      "startDate": "细回万住老存造火。",
+    },
+    "username": "置克广般六题技。",
+  },
+  "User": Object {
+    "emailAddress": "物际应究度。",
+    "firstName": "那平族统得。",
+    "lastName": "什算为的性的。",
+    "username": "持北形住例。",
+  },
+}
+`;
