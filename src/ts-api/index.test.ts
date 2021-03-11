@@ -33,6 +33,7 @@ export interface ICommonData {
   query: Record<string, string>;
   pushWindow(url: string): void;
   alert(message: string): void;
+  onBtnTap: Function;
 }
 `;
 

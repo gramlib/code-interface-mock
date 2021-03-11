@@ -80,7 +80,9 @@ function processType(type: ts.TypeNode) {
     const t = type as ts.TypeReferenceNode;
     if (t.typeName.getText() === 'Array') {
       return createMockArrayType(t.typeArguments[0]);
-    } else {
+    } else if (t.typeName.getText() === 'Function') {
+      return createFunctionType([]);
+    }else {
       return createMockType(t);
     }
   } else if (type.kind === ts.SyntaxKind.ArrayType){
